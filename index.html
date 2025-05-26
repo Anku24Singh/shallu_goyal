@@ -18,12 +18,12 @@
 </head>
 <body>
 
-    <header id="header" class="fixed-top">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <header id="header" class="fixed-top" >
+        <nav class="navbar navbar-expand-lg navbar-dark  sticky-top" style="background-color: purple;">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <!-- <img src="https://placehold.co/150x50/ffc107/343a40?text=ScaffoldCo" alt="ScaffoldCo Logo"> -->
-                     <h1 style="color: white;">Shallu Goyal</h1>
+                     <h1 style="color: #e0a800;; font-family: 'Amsterdam', sans-serif; max-height: 40px; font-weight: 600;font-size: 24px; padding-top: 15px;">Shallu Goyal</h1>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -36,9 +36,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#main">About Me</a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-link" href="#why-us">Data Points</a>
-                        </li>
+                        </li> -->
                        <li class="nav-item">
                             <a class="nav-link" href="#notes">Notes</a>
                         </li>
@@ -52,7 +52,7 @@
                             <a class="nav-link" href="#faq">FAQ</a>
                         </li> -->
                         <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact Us</a>
+                            <a class="nav-link" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -65,7 +65,7 @@
   <div class="carousel-inner">
 
     <!-- Slide 1 -->
-    <div class="carousel-item active">
+    <!-- <div class="carousel-item active">
       <section class="hero-section d-flex align-items-center" style="min-height: 100vh; background:url(img/img2.jpg);background-repeat: no-repeat; background-size: cover;background-position: center;">
         <div class="container text-center" data-aos="fade-up">
           <h1>Happiness is the key to success</h1>
@@ -76,7 +76,41 @@
           </div>
         </div>
       </section>
+    </div> -->
+<div class="carousel-item active">
+  <section class="hero-section d-flex align-items-center justify-content-center" style="min-height: 100vh; position: relative; overflow: hidden;">
+
+    <!-- Blurred Background Image -->
+    <div style="
+      background: url('img/logo_img_new.jpeg') center center no-repeat;
+      background-size: contain; /* use 'cover' if you want full coverage */
+      background-color: white;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      height: 100%;
+      z-index: 0;
+    "></div>
+
+    <!-- Foreground Content -->
+    <div class="container text-center" data-aos="fade-up" style="position: relative; z-index: 1;">
+      <!-- Heading (Optional) -->
+      <!-- <h1 class="mb-4" style="margin-top: 00px;">Happiness is the key to success</h1> -->
+
+      <!-- CTA Button -->
+      <!-- <a href="https://www.linkedin.com/in/shallu-goyal-4312b810b" class="btn btn-primary scrollto">
+        Discover your key with me
+      </a> -->
     </div>
+
+  </section>
+</div>
+
+
 
     <!-- Slide 2 -->
     <div class="carousel-item">
@@ -104,44 +138,47 @@
 </div>
 
     <main id="main">
+<section id="about" class="about">
+  <div class="container">
+    <div class="section-title" data-aos="fade-up">
+      <h2>About Me</h2>
+      <p>We learn what we see, right?</p>
+    </div>
 
-        <section id="about" class="about">
-            <div class="container">
+    <div class="row align-items-stretch">
+      <!-- Left: Image -->
+      <div class="col-lg-4 mb-4 mb-lg-0" data-aos="fade-right">
+        <img src="img/img1-1.jpg" 
+             alt="About Us Image"
+             class="img-fluid rounded shadow h-100 w-100" 
+             style="object-fit: cover;">
+      </div>
 
-                <div class="section-title" data-aos="fade-up">
-                    <h2>About Me</h2>
-                    <p>We learn what we see, right?</p>
-                </div>
+      <!-- Right: Full Text -->
+      <div class="col-lg-8 d-flex" data-aos="fade-left">
+        <div class="d-flex flex-column justify-content-center" style="text-align: left;">
+          <p>
+            Growing up, I watched my father lead with kindness, patience, and empathy — and I carry those values with me every day. If there's one thing people often remember me by, it's my smile. I believe in sharing happiness and multiplying it — that's my soul goal.
 
-                <div class="row content">
-                    <div class="col-lg-4" data-aos="fade-right">
-                        <img src="img/img1-1.jpg" class="img-fluid rounded shadow" alt="About Us Image" style="height: 860px; object-fit: cover;">
-                    </div>
-                    <div class="col-lg-8 pt-4 pt-lg-0" data-aos="fade-left">
-                        <!-- <h3>Building the Foundations for Your Success</h3> -->
-                        <p style="text-align: center;">
-                            Growing up, I watched my father lead with kindness, patience, and empathy — and I carry those values with me every day. If there's one thing people often remember me by, it's my smile. I believe in sharing happiness and multiplying it — that's my soul goal.
-                        </p>
-                        <p style="text-align: center;">
-                           Before founding this platform, I worked at a private sector bank for four years. During that time, I discovered something powerful — my ability to genuinely connect with people, uplift them, and bring joy to their lives just by being present, listening, and caring. That’s when I realised my true purpose: to help people lead happier, more emotionally fulfilling lives.
+            <br><br>
+            Before founding this platform, I worked at a private sector bank for four years. During that time, I discovered something powerful — my ability to genuinely connect with people, uplift them, and bring joy to their lives just by being present, listening, and caring. That’s when I realised my true purpose: to help people lead happier, more emotionally fulfilling lives.
 
-                        </p>
-                        <p style="text-align: center;">
-                          Our education system teaches us so much, but rarely how to understand or manage our emotions. We’re never taught how to handle stress, anxiety, or sadness — yet these emotions have become part of our daily lives. That’s why I created this space — to help people reconnect with themselves, cope with stress, and cultivate genuine happiness from within.
-                        </p>
-                        <p style="text-align: center;">
-                          Today, through my workshops, one-on-one sessions, and wellness programs, I’m grateful to be making a real impact. I’ve worked with young professionals facing burnout, homemakers rediscovering their spark, and even corporate teams looking for more balance and joy. Seeing people shift their mindset, regain their energy, and choose happiness — that’s what keeps me going.
-                        </p>
-                        <p style="text-align: center;">
-                         With mindfulness, self-care, and simple mindset shifts, I believe each of us can create a life that doesn’t just look good on the outside, but feels deeply joyful and aligned on the inside. I’m here to walk that journey with you.
-                        </p>
-                       
-                    </div>
-                </div>
+            <br><br>
+            Our education system teaches us so much, but rarely how to understand or manage our emotions. We’re never taught how to handle stress, anxiety, or sadness — yet these emotions have become part of our daily lives. That’s why I created this space — to help people reconnect with themselves, cope with stress, and cultivate genuine happiness from within.
 
-            </div>
-        </section>
-       <section id="why-us" class="why-us py-5 bg-light">
+            <br><br>
+            Today, through my workshops, one-on-one sessions, and wellness programs, I’m grateful to be making a real impact. I’ve worked with young professionals facing burnout, homemakers rediscovering their spark, and even corporate teams looking for more balance and joy. Seeing people shift their mindset, regain their energy, and choose happiness — that’s what keeps me going.
+
+            <br><br>
+            With mindfulness, self-care, and simple mindset shifts, I believe each of us can create a life that doesn’t just look good on the outside, but feels deeply joyful and aligned on the inside. I’m here to walk that journey with you.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+       <!-- <section id="why-us" class="why-us py-5 bg-light">
         <div class="container">
         <div class="section-title text-center mb-5" data-aos="fade-up">
         <h2>Data Points</h2>
@@ -161,6 +198,38 @@
             <h4 style="color: black;">
             Practicing gratitude regularly can increase overall happiness by up to 25%, according to research by psychologist Robert Emmons.
           </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+ <section id="why-us" class="why-us py-5 bg-light">
+        <div class="container">
+        <!-- <div class="section-title text-center mb-5" data-aos="fade-up">
+            <h2>Data Points</h2>
+        </div> -->
+
+        <div class="row g-4">
+        <!-- <div class="col-lg-6 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+        <div class="icon-box custom-card">
+          <h4 style="color: black;">
+            Studies show that even short, consistent meditation sessions can lead to a 31% decrease in stress levels and improve overall emotional regulation.
+            </h4>
+            </div>
+            </div> -->
+
+            <div class="col-lg-12 col-md-12 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box custom-card">
+            <p style="color: black;">
+                Take a moment to pause and reflect on how you're really feeling. It will help you validate your gut feeling with experts. Our well-being section features three insightful quizzes designed to help you check in with yourself. 
+                <br>These simple yet powerful tools are here to support your journey toward greater self-awareness and emotional clarity.
+                <!-- <h4>Scale of positive and negative experience</h4> -->
+                <button><a href="https://form.jotform.com/251448921518461" style="text-decoration: none; color: white;" target="_blank">Scale of positive and negative experience</a></button>
+                <button><a href="https://form.jotform.com/251449090939466" style="text-decoration: none; color: white;" target="_blank">Satisfaction with life scale</a></button>
+                <button><a href="https://form.jotform.com/251450150638451" style="text-decoration: none; color: white;" target="_blank">Loneliness Scale</a></button>
+               
+            </p>
         </div>
       </div>
     </div>
@@ -188,7 +257,7 @@
     </div>
   </div>
 </section>
-        <section id="services" class="services section-bg" style="background-color: black;">
+        <section id="services" class="services section-bg" >
             <div class="container">
 
                 <div class="section-title" data-aos="fade-up">
@@ -202,6 +271,7 @@
                             <!-- <div class="icon"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnpRTP6WekIbZGT_zh12m8-pCP62j9eanAtA&s" alt="Service Icon"  class="icon"></div> -->
                             <h4>Live the Life You Desire</h4>
                             <p>Your thoughts shape your reality. In these sessions, you'll learn how to set clear intentions, align your mindset, and manifest what truly matters — be it vibrant health, deeper relationships, financial ease, or career breakthroughs. We’ll help you turn dreams into goals and goals into reality, by tuning into the power of your inner voice.</p>
+                            <button><a href="https://calendly.com/shallu-goyal91/30min" style="text-decoration: none; color: white;" target="_blank">Register now </a></button>
                         </div>
                     </div>
 
@@ -211,6 +281,7 @@
                      
                             <h4>Align Your Energy, Transform Your Life</h4>
                             <p>The energy you carry shapes how you experience the world. This journey is about becoming more aware of the emotions you hold, understanding how they influence your choices, and learning how to shift your energy consciously. With the right tools, you’ll learn to respond — not react — and bring calm, clarity, and confidence into your everyday life.</p>
+                            <button><a href="https://calendly.com/shallu-goyal91/30min" style="text-decoration: none; color: white;" target="_blank">Register now </a></button>
                         </div>
                     </div>
 
@@ -219,6 +290,7 @@
                             <!-- <div class="icon"><i class="fas fa-hard-hat"></i></div> -->
                             <h4>Remove the unseen blockages</h4>
                             <p>True happiness is not a destination — it’s a way of being. These sessions are designed to help you reconnect with joy, let go of emotional blocks, and make space for peace, purpose, and play. With simple shifts and mindful practices, we’ll help you live more freely, lightly, and meaningfully.</p>
+                            <button><a href="https://calendly.com/shallu-goyal91/30min" style="text-decoration: none; color: white;" target="_blank">Register now </a></button>
                         </div>
                     </div>
                      <div class="col-lg-12 col-md-12 d-flex align-items-stretch mb-4" data-aos="zoom-in" data-aos-delay="400">
@@ -227,7 +299,7 @@
                             <h4>Amplify your happiness</h4>
                             <p>It is a transformational 2-hour workshop designed to help you boost your happiness score! Rooted in my unique Blissful Life Formula, developed over 5 years of deep study and practice, this experience helps you break free from stress, realign with your inner self, and take charge of your emotional well-being. Through powerful insights, mindset shifts, and actionable tools, you'll learn how to create a life that feels joyful, peaceful, and purpose-driven. </p>
                             <p>Join us and take the first step toward becoming a Happiness Machine.</p>
-                            <button>Register now</button>
+                            <button><a href="https://calendly.com/shallu-goyal91/30min" style="text-decoration: none; color: white;" target="_blank">Register now </a></button>
                         </div>
                     </div>
                      <div class="col-lg-12 col-md-12 d-flex align-items-stretch mb-4" data-aos="zoom-in" data-aos-delay="500">
@@ -236,8 +308,8 @@
                             <h4>Pause and Reflect (Meditation time)</h4>
                             <p>Our monthly workshops are gentle, guided sessions where we hold space for silence, stillness, and self-reflection. Through simple meditative practices, we invite you to slow down, tune in, and realign with your inner calm.</p>
                             <p>No pressure, no performance — just a safe space to breathe and reconnect.</p>
-                           <a href="https://calendly.com/reachunair/30min" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
-                            <button>Join our next session</button>
+                           <!-- <a href="https://calendly.com/reachunair/30min" target="_blank" rel="noopener noreferrer" style="text-decoration: none;"> -->
+                            <button><a href="https://calendly.com/shallu-goyal91/30min" style="text-decoration: none; color: white;" target="_blank">Join our next session</a></button>
                             </a>
                         </div>
                     </div>
@@ -245,265 +317,6 @@
                 </div>
             </div>
         </section>
-
-       
-        <!-- <section id="products" class="products section-bg">
-            <div class="container">
-
-                <div class="section-title" data-aos="fade-up">
-                    <h2>Our Products</h2>
-                    <p>Explore Our Wide Range of High-Quality Scaffolding Products</p>
-                </div>
-
-                <div id="products-aluminum" class="mb-5" data-aos="fade-up">
-                    <h3 class="text-center mb-4">Aluminum Scaffolding</h3>
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="product-item">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/modular-mobile-scaffold-towers.webp" alt="Aluminum Tower">
-                                <div class="product-info">
-                                    <h5>Aluminum Mobile Towers</h5>
-                                    <p>Lightweight, easy to assemble, ideal for maintenance and indoor use.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                             <div class="product-item">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/aluminium ladders.jpeg" alt="Aluminum Ladder Frame">
-                                <div class="product-info">
-                                    <h5>Aluminum Ladder Frames</h5>
-                                     <p>Versatile frames for various access solutions, strong and corrosion-resistant.</p>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="col-lg-4 col-md-6">
-                             <div class="product-item">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/scaffolding_accessories.jpeg" alt="Scaffolding Accessories">
-                                <div class="product-info">
-                                    <h5>Scaffolding Accessories</h5>
-                                     <p>Platforms, braces, and accessories made from high-grade aluminum.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="products-ms" class="mb-5" data-aos="fade-up" data-aos-delay="100">
-                    <h3 class="text-center mb-4">MS (Mild Steel) Scaffolding</h3>
-                     <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="product-item">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/hframe scaffolding.jpeg" alt="MS Frame">
-                                <div class="product-info">
-                                    <h5>H-Frames</h5>
-                                    <p>Robust steel frames for heavy-duty construction and support structures.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                             <div class="product-item">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/couplers.png" alt="MS Coupler">
-                                <div class="product-info">
-                                    <h5>MS Couplers</h5>
-                                     <p>Durable forged or pressed steel couplers for secure connections.</p>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="col-lg-4 col-md-6">
-                             <div class="product-item">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/ms-plank.png" alt="MS Walkway">
-                                <div class="product-info">
-                                    <h5>Steel Walkway Planks</h5>
-                                     <p>Anti-skid steel planks for safe working platforms at height.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="products-mobile" class="mb-5" data-aos="fade-up" data-aos-delay="200">
-                    <h3 class="text-center mb-4">Mobile Scaffolding</h3>
-                     <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="product-item">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/aluminium_scaffolding_narrow_model.png" alt="Aluminium Scaffolding (Narrow Model)">
-                                <div class="product-info">
-                                    <h5>Aluminium Scaffolding (Narrow Model)</h5>
-                                    <p>Compact and easy to maneuver in confined spaces.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                             <div class="product-item">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/aluminium_scaffolding_stairway_model.png" alt="Aluminium Scaffolding (Stairway Model)">
-                                <div class="product-info">
-                                    <h5>Aluminium Scaffolding (Stairway Model)</h5>
-                                     <p>Provides a larger, stable working platform for multiple workers.</p>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="col-lg-4 col-md-6">
-                             <div class="product-item">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/M.S Staircase Scaffolding.jpg" alt="M.S Staircase Scaffolding">
-                                <div class="product-info">
-                                    <h5>M.S Staircase Scaffolding</h5>
-                                     <p>Includes internal stairs for safe and easy access to different levels.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="products-props" class="mb-5" data-aos="fade-up" data-aos-delay="300">
-                    <h3 class="text-center mb-4">Adjustable Props & Jacks</h3>
-                     <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="product-item">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/msprops.jpeg" alt="Adjustable Prop">
-                                <div class="product-info">
-                                    <h5>MS Props</h5>
-                                    <p>Heavy-duty props for temporary support of ceilings, walls, and beams.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                             <div class="product-item">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/base jack.png" alt="Base Jack">
-                                <div class="product-info">
-                                    <h5>Scaffolding Base Jacks</h5>
-                                     <p>Provides a stable and adjustable base for scaffolding structures.</p>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="col-lg-4 col-md-6">
-                             <div class="product-item">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/ms-braising.png" alt="M.S Braising">
-                                <div class="product-info">
-                                    <h5>M.S Braising</h5>
-                                     <p>Component Used to Connect and Reinforce Scaffolding Elements.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div id="products-sheets" data-aos="fade-up" data-aos-delay="400">
-                    <h3 class="text-center mb-4">Centering Sheets & Cuplock System</h3>
-                     <div class="row">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="product-item">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/Antiskid Platforms.jpg" alt="Antiskid Platforms">
-                                <div class="product-info">
-                                    <h5>Antiskid Platforms</h5>
-                                    <p>Durable sheets used in slab construction formwork.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                             <div class="product-item">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/Cuplock Verticals.png" alt="Cuplock Vertical">
-                                <div class="product-info">
-                                    <h5>Cuplock Verticals (Standards)</h5>
-                                     <p>Core components of the versatile Cuplock system.</p>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="col-lg-4 col-md-6">
-                             <div class="product-item">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/Cuplock Horizontals.png" alt="Cuplock Horizontal">
-                                <div class="product-info">
-                                    <h5>Cuplock Horizontals (Ledgers)</h5>
-                                     <p>Connect verticals to create a stable and modular scaffold structure.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section> -->
-
-        <!-- <section id="gallery" class="gallery">
-            <div class="container">
-
-                <div class="section-title" data-aos="fade-up">
-                    <h2>Product Gallery</h2>
-                    <p>Visual Showcase of Our Scaffolding Products in Action</p>
-                </div>
-
-                <div class="row" data-aos="fade-up" data-aos-delay="100">
-                    <div class="col-lg-12 d-flex justify-content-center">
-                        <ul id="gallery-filters">
-                            <li data-filter="*" class="filter-active">All</li>
-                            <li data-filter=".filter-aluminum">Aluminum</li>
-                            <li data-filter=".filter-ms">MS Steel</li>
-                            <li data-filter=".filter-mobile">Mobile</li>
-                            <li data-filter=".filter-accessories">Accessories</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="row gallery-container" data-aos="fade-up" data-aos-delay="200">
-
-                    <div class="col-lg-4 col-md-6 gallery-item filter-aluminum filter-mobile">
-                        <div class="product-item">
-                             <a href="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/modular-mobile-scaffold-towers.webp" data-gallery="portfolioGallery" class="gallery-lightbox">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/modular-mobile-scaffold-towers.webp" alt="Gallery Image 1">
-                             </a>
-                             <div class="product-info"><h5>Aluminum Mobile Tower</h5></div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 gallery-item filter-ms">
-                         <div class="product-item">
-                             <a href="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/hframe scaffolding.jpeg" data-gallery="portfolioGallery" class="gallery-lightbox">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/hframe scaffolding.jpeg" alt="Gallery Image 2">
-                             </a>
-                             <div class="product-info"><h5>MS H-Frame</h5></div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 gallery-item filter-accessories filter-ms">
-                        <div class="product-item">
-                             <a href="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/msprops.jpeg" data-gallery="portfolioGallery" class="gallery-lightbox">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/msprops.jpeg" alt="Gallery Image 3">
-                             </a>
-                             <div class="product-info"><h5>Props and Jacks</h5></div>
-                        </div>
-                    </div>
-
-                     <div class="col-lg-4 col-md-6 gallery-item filter-mobile filter-aluminum">
-                        <div class="product-item">
-                             <a href="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/aluminium_scaffolding_stairway_model.png" data-gallery="portfolioGallery" class="gallery-lightbox">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/aluminium_scaffolding_stairway_model.png" alt="Gallery Image 4">
-                             </a>
-                             <div class="product-info"><h5>Stairway Tower</h5></div>
-                        </div>
-                    </div>
-
-                     <div class="col-lg-4 col-md-6 gallery-item filter-ms filter-accessories">
-                        <div class="product-item">
-                             <a href="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/cuplock_scaffolding.png" data-gallery="portfolioGallery" class="gallery-lightbox">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/cuplock_scaffolding.png" alt="Gallery Image 5">
-                             </a>
-                             <div class="product-info"><h5>Cuplock System Components</h5></div>
-                        </div>
-                    </div>
-
-                     <div class="col-lg-4 col-md-6 gallery-item filter-ms">
-                        <div class="product-item">
-                             <a href="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/Large_Scale_MS_Scaffold.jpeg" data-gallery="portfolioGallery" class="gallery-lightbox">
-                                <img src="https://raw.githubusercontent.com/farazc60/Project-Images/refs/heads/main/scaffolding-templates/Large_Scale_MS_Scaffold.jpeg" alt="Gallery Image 6">
-                             </a>
-                             <div class="product-info"><h5>Large Scale MS Scaffold</h5></div>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section> -->
-
         <section id="testimonials" class="testimonials section-bg">
             <div class="container" data-aos="fade-up">
 
@@ -593,137 +406,18 @@
             <div class="container">
 
                 <div class="section-title" data-aos="fade-up">
-                    <h2>Book a free clarity session and reconnect with your true self.</h2>
+                    
+                      <!-- <button><a href="https://calendly.com/shallu-goyal91/30min" style="text-decoration: none; color: rgb(14, 6, 6);" target="_blank">Join our next session</a></button> -->
                     <!-- <p>Providing Scaffolding Solutions Across Diverse Sectors</p> -->
-                </div>
-
-                <!-- <div class="row">
-                    <div class="col-lg-3 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="100">
-                        <div class="industry-item">
-                            <i class="fas fa-hard-hat"></i>
-                            <h5>Construction & Real Estate</h5>
-                        </div>
-                    </div>
-                     <div class="col-lg-3 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
-                        <div class="industry-item">
-                            <i class="fas fa-industry"></i>
-                            <h5>Industrial & Manufacturing</h5>
-                        </div>
-                    </div>
-                     <div class="col-lg-3 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="300">
-                        <div class="industry-item">
-                            <i class="fas fa-tools"></i>
-                            <h5>Maintenance & Repair</h5>
-                        </div>
-                    </div>
-                     <div class="col-lg-3 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
-                        <div class="industry-item">
-                            <i class="fas fa-calendar-alt"></i>
-                            <h5>Events & Entertainment</h5>
-                        </div>
-                    </div>
-                     <div class="col-lg-3 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="500">
-                        <div class="industry-item">
-                             <i class="fas fa-ship"></i>
-                            <h5>Shipbuilding & Marine</h5>
-                        </div>
-                    </div>
-                     <div class="col-lg-3 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="600">
-                        <div class="industry-item">
-                            <i class="fas fa-plug"></i>
-                            <h5>Energy & Utilities</h5>
-                        </div>
-                    </div>
-                     <div class="col-lg-3 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="700">
-                        <div class="industry-item">
-                            <i class="fas fa-broadcast-tower"></i>
-                            <h5>Telecommunications</h5>
-                        </div>
-                    </div>
-                     <div class="col-lg-3 col-md-6 mb-4" data-aos="zoom-in" data-aos-delay="800">
-                        <div class="industry-item">
-                            <i class="fas fa-paint-roller"></i>
-                            <h5>Painting & Renovation</h5>
-                        </div>
-                    </div>
-                </div> -->
-
-            </div>
-        </section>
-
-        <!-- <section id="faq" class="faq section-bg">
-            <div class="container">
-
-                <div class="section-title" data-aos="fade-up">
-                    <h2>Frequently Asked Questions</h2>
-                    <p>Find Answers to Common Questions About Our Services and Products</p>
-                </div>
-
-                <div class="accordion" id="faqAccordion" data-aos="fade-up" data-aos-delay="100">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                What types of scaffolding do you offer for rent?
-                            </button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">
-                                We offer a wide range including Aluminum Mobile Towers, MS (Mild Steel) H-Frame systems, Cuplock systems, adjustable props, centering sheets, and related accessories. We cater to various project sizes and requirements.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                Do you provide installation and dismantling services?
-                            </button>
-                        </h2>
-                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">
-                                Yes, we have a team of certified and experienced professionals who provide safe and efficient installation and dismantling services for all types of scaffolding structures we supply.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                What areas do you serve?
-                            </button>
-                        </h2>
-                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">
-                                We primarily serve the [Your City/Region] area, but we can discuss requirements for projects in surrounding regions as well. Please contact us with your specific location details.
-                            </div>
-                        </div>
-                    </div>
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFour">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                How do I get a quote for my project?
-                            </button>
-                        </h2>
-                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">
-                                You can get a quote by filling out the contact form on our website, calling us directly at [Your Phone Number], or sending an email to [Your Email Address]. Please provide as much detail about your project requirements as possible.
-                            </div>
-                        </div>
-                    </div>
-                     <div class="accordion-item">
-                        <h2 class="accordion-header" id="headingFive">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                Are your scaffolding products compliant with safety standards?
-                            </button>
-                        </h2>
-                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
-                            <div class="accordion-body">
-                                Absolutely. All our manufactured and rented scaffolding products meet or exceed relevant national and international safety standards. Safety is our top priority.
-                            </div>
+                     <div class="col-lg-12 col-md-12 d-flex align-items-stretch mb-4" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="icon-box">
+                        <h2>Let’s get to know each other—schedule a quick call with us.</h2>
+                            <button><a href="https://calendly.com/shallu-goyal91/30min" style="text-decoration: none; color: white;" target="_blank">Book a call</a></button>
+                            </a>
                         </div>
                     </div>
                 </div>
 
-            </div>
-        </section> -->
 
         <section id="contact" class="contact">
             <div class="container">
@@ -761,7 +455,7 @@
                     </div>
 
                     <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch" data-aos="fade-left">
-                                <form id="contactForm" action="https://formsubmit.co/ankusinghcps@gmail.com" method="POST">
+                                <form id="contactForm" action="https://formsubmit.co/Shallu.goyal91@gmail.com" method="POST">
                                 <!-- Success message -->
                                 <div id="formSuccess" class="alert alert-success d-none" role="alert">
                                     Message successfully sent!
@@ -780,30 +474,30 @@
     <label for="userEmail">Your Email</label>
   </div>
 </div>
-<div class="col-md-6">
-  <div class="form-floating">
+<!-- <div class="col-md-6">
+  <132div class="form-floating">
     <input type="number" class="form-control" id="userAge" name="age" required placeholder="Your Age">
     <label for="userAge">Age</label>
-  </div>
-</div>
-<div class="col-md-6">
+  </132div>
+</div> -->
+<!-- <div class="col-md-6">
   <div class="form-floating">
     <input type="text" class="form-control" id="userProfession" name="profession" required placeholder="Your Profession">
     <label for="userProfession">Profession</label>
   </div>
-</div>
+</div> -->
 <div class="col-12">
   <div class="form-floating">
     <input type="number" class="form-control" id="userContact" name="contact" required placeholder="XXXXXXXXXXX">
     <label for="userContact">Contact-Number</label>
   </div>
 </div>
-<div class="col-12">
+<!-- <div class="col-12">
   <div class="form-floating">
     <input type="text" class="form-control" id="userSubject" name="subject" required placeholder="Subject">
     <label for="userSubject">Subject</label>
   </div>
-</div>
+</div> -->
 
                                     <div class="col-12">
                                         <div class="form-floating">
@@ -824,57 +518,34 @@
                         </div>
                     </div>
                 </section>
-    </main><footer id="footer" class="footer">
+    </main>
+    <footer id="footer" class="footer" style="background-color: purple;">
         <div class="footer-top">
             <div class="container">
                 <div class="row gy-4">
-                    <div class="col-lg-4 col-md-12 footer-info">
+                    <div class="col-lg-6 col-md-12 footer-info">
                         <!-- <a href="#" class="footer-logo d-flex align-items-center">
                             <img src="https://placehold.co/150x50/ffc107/343a40?text=ScaffoldCo" alt="ScaffoldCo Footer Logo">
                         </a> -->
-                        <h1 style="color: white;">Shallu Goyal</h1>
-                        <p>Happiness is the key to success.</p>
-                        <div class="social-links mt-3">
-                            <!-- <a href="#" class="twitter"><i class="fab fa-twitter"></i></a> -->
-                            <!-- <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a> -->
-                            <!-- <a href="#" class="instagram"><i class="fab fa-instagram"></i></a> -->
-                            <a href="https://www.linkedin.com/in/shallu-goyal-4312b810b/" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
+                        <!-- <h1 style="color: white;">Shallu Goyal</h1> -->
+                          <!-- <h1 style="color: #e0a800;; font-family: 'Amsterdam', sans-serif;align-items: center;" >Shallu Goyal</h1> -->
+                           <a class="navbar-brand" href="#">
+                    <!-- <img src="https://placehold.co/150x50/ffc107/343a40?text=ScaffoldCo" alt="ScaffoldCo Logo"> -->
+                     <h1 style="color: #e0a800;; font-family: 'Amsterdam', sans-serif; max-height: 40px; font-weight: 600;font-size: 24px; padding-top: 15px;">Shallu Goyal</h1>
+                </a>
+                        <!-- <p>Happiness is the key to success.</p> -->
+                        
                     </div>
 
-                    <div class="col-lg-2 col-6 footer-links">
-                        <h4>Useful Links</h4>
-                        <ul>
-                            <li><i class="fas fa-chevron-right"></i> <a href="#hero">Home</a></li>
-                            <li><i class="fas fa-chevron-right"></i> <a href="#main">About Me</a></li>
-                            <li><i class="fas fa-chevron-right"></i> <a href="#why-us">Data Points</a></li>
-                            <li><i class="fas fa-chevron-right"></i> <a href="#notes">Notes</a></li>
-                             <li><i class="fas fa-chevron-right"></i> <a href="#services">Services</a></li>
-                            <li><i class="fas fa-chevron-right"></i> <a href="#testimonials">Testimonials</a></li>
-                            <li><i class="fas fa-chevron-right"></i> <a href="#contact">Contact Us</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-6 footer-links">
-                        <h4>Service Offering</h4>
-                         <ul>
-                            <li><i class="fas fa-chevron-right"></i> <a href="#services">Live the Life You Desire</a></li>
-                            <li><i class="fas fa-chevron-right"></i> <a href="#services">Align Your Energy, Transform Your Life</a></li>
-                            <li><i class="fas fa-chevron-right"></i> <a href="#services">Remove the unseen blockages</a></li>
-                            <li><i class="fas fa-chevron-right"></i> <a href="#services">Amplify your happiness</a></li>
-                            <li><i class="fas fa-chevron-right"></i> <a href="#services">Pause and Reflect (Meditation time)</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
-                        <h4>Contact Us</h4>
+                    <div class="col-lg-6 col-md-12 footer-contact text-center text-md-start">
+                        <h3 style="color: white;">Contact Us</h3>
                         <p>
-                            <!-- A123 Industrial Estate <br>
-                            Example Street, City<br>
-                            State 12345 <br>
-                            India <br><br> -->
                             <!-- <strong>Phone:</strong> <a href="tel:+911234567890" class="text-white text-decoration-none">+91 12345 67890</a><br> -->
                             <strong>Email:</strong> <a href="mailto:Shallu.goyal91@gmail.com" class="text-white text-decoration-none">Shallu.goyal91@gmail.com</a><br>
+                            <div class="social-links mt-3">
+                            
+                            <a href="https://www.linkedin.com/in/shallu-goyal-4312b810b/" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
                         </p>
                     </div>
 
