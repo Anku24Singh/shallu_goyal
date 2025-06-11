@@ -34,6 +34,7 @@
   .navbar {
     transition: background-color 0.3s ease-in-out;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 100px;
   }
   
   .navbar-brand img {
@@ -81,6 +82,7 @@
     color: var(--white);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
+  
   
   .hero-section p {
     font-size: 1.25rem;
