@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #ffc107; /* Yellow */
+    --primary-color:  #e0a800; /* Yellow */
     --secondary-color: black;
     --light-gray: #f8f9fa;
     --medium-gray: #6c757d;
@@ -665,7 +665,7 @@
   width: 280px; /* You can adjust this width */
   max-width: 90%;
   padding: 0.75rem 1rem;
-  background-color: #f0b400;
+  background-color:  #e0a800;
   border: none;
   border-radius: 25px;
   font-size: 1rem;
@@ -675,7 +675,7 @@
 }
 
 .quiz-buttons button:hover {
-  background-color: #d89b00;
+  background-color:  #e0a800;
 }
 
 .quiz-buttons button a {
@@ -991,7 +991,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background: #c69500;
+  background:  #e0a800;
   transform: scale(1.03);
 }
 
@@ -1085,7 +1085,7 @@ button[type="submit"]:hover {
 }
 
 .icon-box button:hover {
-  background-color: #c88f00;
+  background-color:  #e0a800;
   cursor: pointer;
 }
 
@@ -1126,7 +1126,7 @@ button[type="submit"]:hover {
 }
 
 .icon-box button:hover {
-  background-color: #c88f00;
+  background-color:  #e0a800;
   box-shadow: 0 8px 20px rgba(224, 168, 0, 0.5);
   transform: translateY(-2px);
   cursor: pointer;
