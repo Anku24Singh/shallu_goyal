@@ -296,7 +296,7 @@
   
   .testimonial-item img {
     width: 100px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     margin: 0 auto 20px auto;
     border: 4px solid var(--light-gray);
   }
